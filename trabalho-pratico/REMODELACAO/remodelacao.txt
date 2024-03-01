@@ -1,0 +1,11 @@
+-> melhorada a modularização do código e a sua organização, separando (como sugerido na apresentação) as librarias dos header files, neste caso, colocando-as nos ficheiros .c
+-> criados getters e setters nos parsers
+-> ficheiros copiados e adicionada a secção remodelada com "/** REMODELACAO **/" no ficheiros
+-> adicionado o ficheiro "remodelacao.txt" com a descrição da remodelação
+-> adicionadas estruturas opacas (tal como alertado na apresentação)
+-> caso possiveis, defines e includes foram movidos para os ficheiros .c (tal como alertado na apresentação)
+(atenção aos comentários no users.c)
+-> appstatus do modo iterativo foi alterado para tambem ser uma estrutura opaca
+-> getters e setters aplicados a todas as queries e restantes modulos e modos (iterativo e batch)
+
+(se necessário, mais detalhado no remodelacao.pdf)
